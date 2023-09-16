@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&family=Montserrat:wght@200&family=Roboto&display=swap');
+
+
+
+body {
+  background: #f0f8ff;
+  color: #f0f8ff;
+  font-family: Roboto;
+  font-weight: 200;
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background: #181842;
+}
+
+img{
+  margin-right: 2em;
+  margin: 2em;
+}
+
+
+h1, h2, h3 {
+  font-family: Montserrat, Lato;
+  color: #181842;
+}
+
+h1{
+text-align: center;
+margin-top: 4em;
+color: #f0f8ff;
+}
+
+
+main {
+max-width: 90%;
+padding: 1em;
+margin: 1em auto;
+text-align: center;
+
+}
+
+ul {
+  text-align: left;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: #f0f8ff;
+  max-width: 50%;
+  padding: 0.6em 1em 0.6em 1em;
+  margin: 0.2em auto 0.3em auto;
+  border-width: 1px;
+  background-color:#395f53;
+  border-radius: 4px;
+}
+ 
+ul a {
+  display: block;
+  text-decoration: none;
+  color: #f0f8ff;
+  max-width: 50%;
+  padding: 0.5em;
+  margin: 0.2em auto 0em 0;
+  border-width: 1px;
+  background-color:#395f53;
+  border-radius: 4px;
+  text-align: left;
+}
+
+li{
+  list-style-type: number;
+  color: #181842;
+  margin-left: 30%;
+}
+nav {
+  margin: auto;
+  background-color: #447565;
+  padding: 0.5em;
+}
+
+.underlinebar {
+  border-bottom: solid #181842;
+}
+.card a {
+  display: block;
+
+}
+
+footer{
+background: #181842;
+display: block;
+justify-content: center;
+margin: auto ;
+padding: 1em;
+background: #181842;
+font-size: small;
+}
