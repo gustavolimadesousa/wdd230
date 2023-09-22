@@ -40,7 +40,7 @@
   }
   
   main {
-  display:grid;
+  display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 90%;
   padding: 1em;

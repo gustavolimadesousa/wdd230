@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&family=Montserrat:wght@200&family=Roboto&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&family=Montserrat:wght@200&family=Roboto&display=swap");
 
 body {
   background: #f0f8ff;
@@ -19,31 +17,32 @@ header {
   grid-template-columns: 1fr;
 }
 
-img{
-  margin: 2em auto ;
+img {
+  margin: 2em auto;
   padding: 10;
   border-radius: 100px;
   grid-column: 1/1;
 }
 
-
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: Montserrat, Lato;
   color: #181842;
 }
 
-h1{
-text-align: center;
-color: #f0f8ff;
+h1 {
+  text-align: center;
+  color: #f0f8ff;
 }
 
-
 main {
-max-width: 90%;
-padding: 1em;
-margin: 1em auto;
-text-align: center;
-
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  padding: 1em;
+  margin: 1em auto;
+  text-align: center;
 }
 
 ul {
@@ -58,10 +57,10 @@ nav a {
   padding: 0.6em 1em 0.6em 1em;
   margin: 0.2em auto 0.3em auto;
   border-width: 1px;
-  background-color:#395f53;
+  background-color: #395f53;
   border-radius: 4px;
 }
- 
+
 ul a {
   display: block;
   text-decoration: none;
@@ -70,12 +69,12 @@ ul a {
   padding: 0.5em;
   margin: 0.2em auto 0em 0;
   border-width: 1px;
-  background-color:#395f53;
+  background-color: #395f53;
   border-radius: 4px;
   text-align: left;
 }
 
-li{
+li {
   list-style-type: number;
   color: #181842;
 }
@@ -86,7 +85,7 @@ nav {
   padding: 0.5em;
 }
 
-.underlinebar { 
+.underlinebar {
   border-bottom: solid #181842;
 }
 .card a {
@@ -94,14 +93,14 @@ nav {
 }
 
 .card p {
-  color:#181842;
+  color: #181842;
 }
-footer{
-background: #181842;
-display: block;
-justify-content: center;
-margin: auto ;
-padding: 1em;
-background: #181842;
-font-size: small;
+footer {
+  background: #181842;
+  display: block;
+  justify-content: center;
+  margin: auto;
+  padding: 1em;
+  background: #181842;
+  font-size: small;
 }
