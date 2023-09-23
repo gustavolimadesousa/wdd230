@@ -14,13 +14,27 @@ h2 {
   color: #ffffff;
   font-family: Raleway, Roboto, Verdana, sans-serif;
   text-align: center;
+  font-size: 2.5em;
 }
 
 .card {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr 3fr 1fr;
   background-color: #eeeeee;
-margin: 0.8em;
+  margin: 0.8em;
   border: solid #afafaf 1px;
   border-radius: 10px;
+  padding: auto;
+}
+
+img {
+  display: block;
+  width: 95%;
+  padding: 0 !important;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid #afafaf 1px;
 }
 
 h3 {
@@ -33,21 +47,25 @@ h3 {
   border-radius: 10px 10px 0 0;
 }
 
-h4, a{
+h4,
+a {
   padding-left: 0.8em;
+  margin-top: 0;
+  font-size: 1.1em
 }
 
-img{
-  padding: 1em}
+img {
+  padding: 1em;
+}
 
-p{
+p {
   padding: 0.8em;
 }
-
 
 footer {
   background-color: #0b1f31;
   padding: 10px;
+  text-align: center;
 }
 
 footer p {
