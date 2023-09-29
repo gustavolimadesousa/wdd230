@@ -111,6 +111,52 @@
   background: #181842;
   font-size: small;
   }
+
+  .navigation {
+    display: flex;
+    margin: auto;
+    background-color: #447565;
+  }
+  
+
+  .navigation li {
+    display: block;
+
+  }
+
+  .navigation a {
+    text-align: center;
+    padding: 1em;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .nav-item {
+    padding: 1rem;
+    
+  }
+
+  .map-responsive{
+
+    position: relative;
+    padding-bottom: 75%; 
+    height: 0;
+    overflow: hidden;
+  
+}
+
+.map-responsive iframe{
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+
+
+}
   
 }
 
