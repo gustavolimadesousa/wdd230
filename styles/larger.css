@@ -139,7 +139,7 @@
   }
 
   .map-responsive{
-
+    grid-column: 1/3;
     position: relative;
     padding-bottom: 75%; 
     height: 0;

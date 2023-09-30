@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&family=Montserrat:wght@200&family=Roboto&display=swap");
+
+body{
+  background-color: #edddd4;
+  color: #ffffff;
+  font-family: roboto;
+}
+
+/* website centered  */
+.content {
+  max-width: 80em;
+  margin: auto;
+  background-color: #283d3b;
+padding-top: 20px;
+}
+
+/* menu settings  */
+
+/* style the navigation menu */
+nav{
+  width: 100%;
+  background-color: #c44536;
+  overflow:auto;
+  margin: 0;
+}
+
+/* navigation links */
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+nav ul li a {
+  float: left;
+  padding: 1em;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1em;
+  width: 18em;
+  text-align: center;
+}
+
+/* Add a background color on mouse-over */
+nav a:hover{
+  background-color: #edddd4;
+}
+
+/* Add a color to link on mouse-over */
+a:hover{
+color: #000000;
+}
+
+h1 {
+  padding: 1em;
+  font-family: lato;
+  font-weight: 300;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+h2, p {
+  color:#283d3b;
+}
+
+h3, p{
+  color: #283d3b;
+}
+
+h4 {
+  color: #283d3b;
+}
+
+section {
+ padding: 0.5em 1em;
+ background-color: #ffffff;
+ 
+}
+
+footer{
+ padding: 0.5em 1em;
+}
+
+footer p{
+  color: #ffffff;
+}
+
+.list {
+list-style-type: circle; 
+color: #283d3b;
+}
+
+#persona1, #persona2 {
+  padding-bottom: 3em;
+  
+}
+
+#persona1 h2 {
+  color: #772E25;
+}
+
+#persona2 h2 {
+  color: #772E25;
+}
+
+#wireframe img {
+  padding: 1em 2em;
+}
