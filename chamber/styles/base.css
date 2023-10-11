@@ -91,7 +91,7 @@ nav{
 #hero-msg {
   grid-column: 2/3;
   grid-row: 1/2;
-  margin-top: 50em;
+  margin-top: 30em;
   text-align: center;
   background-color: #772e25;
   border-radius: 5px;
@@ -265,15 +265,15 @@ body{
 }
 
 main{
-  display: inline-block !important;
+  display: inline-block;
 }
 
 .weather-card {
-  margin: 1em !important;
+  margin: 1em;
 }
 
 .spotlights{
-  display: block !important;
+  display: block ;
  
 }
 
