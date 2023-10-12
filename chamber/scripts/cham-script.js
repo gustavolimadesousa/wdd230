@@ -1,54 +1,20 @@
+// get date
+
 let date =  new Date().getFullYear();
 document.querySelector(".currentYear").innerHTML = date;
 
 let lastModifiedDate = new Date(document.lastModified);
 document.querySelector(".lastModified").innerHTML = lastModifiedDate;
 
+
 // hamburger menu
 
-class MobileNavbar {
-  constructor(mobileMenu, navList, navLinks) {
-    this.mobileMenu = document.querySelector(mobileMenu);
-    this.navList = document.querySelector(navList);
-    this.navLinks = document.querySelectorAll(navLinks);
-    this.activeClass = "active";
+const mainnav = document.querySelector('.nav-list')
+const hambutton = document.querySelector('#menu');
 
-    this.handleClick = this.handleClick.bind(this);
-  }
+hambutton.addEventListener('click', () => {
+  mainnav.classList.toggle('show');
+  hambutton.classList.toggle('show');
+})
 
-  animateLinks() {
-    this.navLinks.forEach((link, index) => {
-      link.style.animation
-        ? (link.style.animation = "")
-        : (link.style.animation = `navLinkFade 0.5s ease forwards ${
-            index / 7 + 0.3
-          }s`);
-    });
-  }
 
-  handleClick() {
-    this.navList.classList.toggle(this.activeClass);
-    this.mobileMenu.classList.toggle(this.activeClass);
-    this.animateLinks();
-  }
-
-  addClickEvent() {
-    this.mobileMenu.addEventListener("click", this.handleClick);
-  }
-
-  init() {
-    if (this.mobileMenu) {
-      this.addClickEvent();
-    }
-    return this;
-  }
-}
-
-const mobileNavbar = new MobileNavbar(
-  ".mobile-menu",
-  ".nav-list",
-  ".nav-list li",
-);
-mobileNavbar.init();
-
-mobileNavbar.init();
