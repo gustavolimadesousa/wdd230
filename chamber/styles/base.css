@@ -1,19 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&family=Montserrat:wght@200&family=Roboto&display=swap");
 
-body{
- background-color: #edddd4;
- font-family: Roboto;
+body {
+  background-color: #edddd4;
+  font-family: Roboto;
 }
 
 #menu {
   display: block;
-	font-size: 2rem;
-	font-weight:700;
-	text-decoration: none;
-	background-color: #283d3b;
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: #283d3b;
 }
 
-#menu::before{
+#menu::before {
   content: "☰";
   background-color: #283d3b;
   color: #ffffff;
@@ -34,7 +34,7 @@ body{
   display: none;
 }
 
-.nav-list a{
+.nav-list a {
   color: #ffffff;
   display: block;
   padding: 1em 2em;
@@ -43,7 +43,8 @@ body{
   transition: 0.5s;
 }
 
-.nav-list a:hover, .nav-list a:active {
+.nav-list a:hover,
+.nav-list a:active {
   color: #ffffff;
   background-color: #c44536;
   border-radius: 5px;
@@ -55,6 +56,7 @@ body{
 
 #menu.show::before {
   content: "X";
+  margin-left: 1.5em;
 }
 
 nav {
@@ -66,15 +68,14 @@ nav {
   padding: 1em;
 }
 
-
-.logo{
+.logo {
   font-family: Lato;
   font-size: 30px;
   font-weight: 300;
   padding: 0.5em;
 }
 
-.button{
+.button {
   font-family: Lato;
   font-weight: 300;
 }
@@ -96,14 +97,13 @@ nav {
   transition: 1s background;
 }
 
-
 #hero {
   background-color: #ffffff;
   display: grid;
   grid-template-columns: 1fr 10fr 1fr;
 }
 
-#hero-box{
+#hero-box {
   grid-column: 1/4;
 }
 
@@ -136,18 +136,17 @@ img {
   text-decoration: none;
 }
 
-main{
+main {
   background-color: #ffffff;
   display: inline-block;
 }
 
-main h2{
+main h2 {
   color: #283d3b;
   font-family: Lato;
   font-weight: 500;
   text-align: center;
   padding: 2em;
-
 }
 
 .card {
@@ -157,13 +156,12 @@ main h2{
   border-radius: 5px;
 }
 
-.section-title{
+.section-title {
   font-family: Lato;
   font-weight: 600;
 }
 
-
-footer{
+footer {
   background-color: #283d3b;
   color: #ffffff;
   display: block;
