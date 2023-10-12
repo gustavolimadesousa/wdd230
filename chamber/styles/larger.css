@@ -5,9 +5,14 @@
     margin: auto;
   }
 
-.logo {
+  .logo {
   padding-left: 1em;
-}
+  }
+
+  nav {
+    display: flex;
+  }
+
 
   .nav-list {
     display: flex;
@@ -42,12 +47,14 @@
 
   .current-event{
     grid-column: 1/3;
+    margin: 1em 0 1em 1em;
   }
 
   .spotlights {
     grid-column: 1/4;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 1em 1em 1em;
   }
 
   .spotlights h3{

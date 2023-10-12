@@ -14,9 +14,10 @@ body{
 }
 
 #menu::before{
-  content: "≡";
+  content: "☰";
   background-color: #283d3b;
   color: #ffffff;
+  padding-right: 0.5em;
 }
 
 .links {
@@ -36,7 +37,7 @@ body{
 .nav-list a{
   color: #ffffff;
   display: block;
-  padding: 1em;
+  padding: 1em 2em;
   text-align: center;
   text-decoration: none;
   transition: 0.5s;
@@ -65,10 +66,12 @@ nav {
   padding: 1em;
 }
 
+
 .logo{
   font-family: Lato;
   font-size: 30px;
   font-weight: 300;
+  padding: 0.5em;
 }
 
 .button{
@@ -79,8 +82,6 @@ nav {
 .join {
   background-color: #772e25;
   color: #ffffff;
-  padding: 10px 40px;
-  border: none;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -168,7 +169,7 @@ footer{
   display: block;
   align-items: center;
   padding: 2.5em;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 footer div {
