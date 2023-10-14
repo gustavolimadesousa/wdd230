@@ -17,4 +17,56 @@ hambutton.addEventListener('click', () => {
   hambutton.classList.toggle('show');
 })
 
+// dark mode
+
+const modeButton = document.querySelector("#mode");
+const main = document.querySelector("main");
+const body = document.querySelector("body");
+const hero = document.querySelector("#hero");
+const heroMsg = document.querySelector("#hero-msg");
+const nav = document.querySelector("nav");
+const currentEvent = document.querySelector(".current-event");
+const weatherCard = document.querySelector(".weather-card");
+const spotlights = document.querySelector(".spotlights");
+const footer = document.querySelector("footer");
+const navList = document.querySelector(".nav-list");
+const title = document.querySelector("h2")
+const menu = document.querySelector("#menu")
+
+
+
+modeButton.addEventListener("click", () => {
+	if (modeButton.textContent.includes("🌙")) {
+		main.style.background = "#000";
+    body.style.background = "#18191A";
+    hero.style.background = "#000";
+    heroMsg.style.background = "#18191A";
+    nav.style.background = "#000";
+    navList.style.background = "#000";
+    menu.style.background = "#000";
+    title.style.color = "#fff"
+    currentEvent.style.background = "#18191A";
+    weatherCard.style.background = "#18191A";
+    spotlights.style.background = "#18191A";
+    footer.style.background = "#000";
+    main.style.color = "#fff";
+		modeButton.textContent = "☀️";
+	} else {
+		body.style.background = "#edddd4";    
+		main.style.background = "#fff";
+    hero.style.background = "#fff";
+    heroMsg.style.background = "#772e25";
+    nav.style.background = "#283d3b";
+    navList.style.background = "#283d3b";
+    menu.style.background = "#283d3b";
+    title.style.color = "#283d3b"
+    currentEvent.style.background = "#eeeeee";
+    weatherCard.style.background = "#eeeeee";
+    spotlights.style.background = "#eeeeee";
+    footer.style.background = "#283d3b";
+		main.style.color = "#000";
+		modeButton.textContent = "🌙";
+	}
+});
+
 
