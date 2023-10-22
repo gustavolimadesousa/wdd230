@@ -22,11 +22,11 @@
   display: none;
   }
 
-  #hero-box {
+  .hero-box {
     z-index: 1;
   }
 
-  #hero-msg{
+  .hero-msg{
     grid-row: 2/3;
     margin-top: -5em;
     z-index: 2;
@@ -76,5 +76,27 @@
 
   .contacts {
     text-align: right;
+  }
+
+  .hero-paragraph1, .hero-paragraph2 {
+    display: none;
+  }
+
+  .hero-paragraph3{
+    display: block;
+  }
+
+  .hero-label {
+    position: absolute;
+    top: 3em;
+    right: 1.5em;
+    padding: .15em 2em;
+    border: 1px solid #b4b9bc;
+    background-color: #f0f8ff;
+    opacity: 0.75;
+    font-family: lato;
+    font-weight: 700;
+    border-radius: 4px;
+    box-shadow: 0 0 3em #fff;
   }
 }

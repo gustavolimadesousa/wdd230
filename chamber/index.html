@@ -37,10 +37,21 @@
   <a id="menu"></a>
   </nav>  
 
-  <div id="hero">
-    <div id="hero-box">
-      <img class="hero-img" src="/wdd230/chamber/images/hero-img.jpg" alt="hero-img">
+  <div class="hero">
+
+    <picture>
+      <source srcset="/wdd230/chamber/images/wdd230-org-small.webp" media="(max-width: 30em)">
+      <source srcset="/wdd230/chamber/images/wdd230-org-medium.webp" media="(max-width: 40em)">
+      <img src="/wdd230/chamber/images/wdd230-org.webp" alt="hero image" width="1500" height="750">
+    </picture>
+
+    <div class="hero-label">
+      <p class="hero-paragraph1">Small</p>
+      <p class="hero-paragraph2">Medium</p>
+      <p class="hero-paragraph3">Large</p>
+
     </div>
+  </div>
 
     <section id="hero-msg">
       <h1 class="title">Espinho Chamber of Commerce</h1>
@@ -56,27 +67,34 @@
 
     <section class="current-event card">
       <h3 class="section-title">Current Event</h3>
-      <img src="/wdd230/chamber/images/current-event.jpg" alt="">
+      <img src="/wdd230/chamber/images/current-event.webp" alt="">
       <p>Whether you're a local looking to rediscover Espinho city or a visitor seeking a memorable experience, Nossa Senhora d'Ajuda is an event that promises to create lasting memories and celebrate the unique spirit of Espinho. Save the date and make sure to join us for several days of entertainment, culture, and fun as we come together to celebrate the magic of September in Espinho. Don't miss the Nossa Senhora d'Ajuda – the city's event of the season!</p>
     </section>
     <section class="weather-card card">
       <h3 class="section-title">Weather</h3>
-      <img src="/wdd230/chamber/images/weather.png" alt="">
+      <p>Today's Weather
+        <ul> 
+           <li>High: 57&deg;</li>
+           <li>Low: 37&deg;</li>
+           <li>Chance of Precipitation: 45%</li>
+           <li>Wind: 15mph NW</li>
+           <li>Wind Chill: <span id="windChill"></span>&deg;</li>  
+    </ul> </p>
     </section>
     <section class="spotlights card">
       <h3 class="section-title"> Spotlights</h3>
       <div class="spot1 spot">
-        <img src="/wdd230/chamber/images/rua19.jpg" alt="">
+        <img src="/wdd230/chamber/images/rua19.webp" alt="">
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In sint exercitationem sequi illum. Cupiditate provident optio molestiae reprehenderit distinctio itaque accusantium magnam porro? Vel quis corrupti aliquam saepe laudantium inventore.</p>
       </div>
 
       <div class="spot2 spot">
-        <img src="/wdd230/chamber/images/rua19.jpg" alt="">
+        <img src="/wdd230/chamber/images/rua19.webp" alt="">
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In sint exercitationem sequi illum. Cupiditate provident optio molestiae reprehenderit distinctio itaque accusantium magnam porro? Vel quis corrupti aliquam saepe laudantium inventore.</p>
       </div>
 
       <div class="spot3 spot">
-        <img src="/wdd230/chamber/images/rua19.jpg" alt="">
+        <img src="/wdd230/chamber/images/rua19.webp" alt="">
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In sint exercitationem sequi illum. Cupiditate provident optio molestiae reprehenderit distinctio itaque accusantium magnam porro? Vel quis corrupti aliquam saepe laudantium inventore.</p>
       </div>
 
@@ -104,6 +122,7 @@
 
   </footer>
   <script src="/wdd230/chamber/scripts/cham-script.js"></script>
+  <script src="/wdd230/chamber/scripts/windchill.js"></script>
 </body>
 
 </html>

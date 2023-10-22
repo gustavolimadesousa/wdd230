@@ -1,0 +1,27 @@
+@media only screen and (min-width: 25em) {
+  .hero-label {
+    position: absolute;
+    top: 1.5em;
+    right: 1.5em;
+    padding: .15em 2em;
+    border: 1px solid #b4b9bc;
+    background-color: #f0f8ff;
+    opacity: 0.75;
+    font-family: lato;
+    font-weight: 700;
+    border-radius: 4px;
+    box-shadow: 0 0 3em #fff;
+  }
+
+
+  .hero-paragraph1, .hero-paragraph3 {
+    display: none;
+  }
+
+  .hero-paragraph2{
+    display: block;
+  }
+
+}
+
+  

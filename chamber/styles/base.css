@@ -98,15 +98,15 @@ nav {
   transition: 1s background;
 }
 
-#hero {
+/* #hero {
   background-color: #ffffff;
   display: grid;
   grid-template-columns: 1fr 10fr 1fr;
-}
+} */
 
-#hero-box {
+/* #hero-box {
   grid-column: 1/4;
-}
+} */
 
 img {
   width: 100%;
@@ -173,4 +173,33 @@ footer {
 
 footer div {
   padding: 1em;
+}
+
+.hero-paragraph2, .hero-paragraph3 {
+  display: none;
+}
+
+.hero {
+  position: relative;
+
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+ 
+}
+
+.hero-label {
+  position: absolute;
+  top: 1.5em;
+  right: 1.5em;
+  padding: .15em 2em;
+  border: 1px solid #b4b9bc;
+  background-color: #f0f8ff;
+  opacity: 0.75;
+  font-family: lato;
+  font-weight: 700;
+  border-radius: 4px;
+  box-shadow: 0 0 3em #fff;
 }
