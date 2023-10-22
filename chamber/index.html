@@ -21,37 +21,37 @@
 <body>
   <header>
     <nav>
-    <a class="logo">EspinhoCC</a>
+      <a class="logo">EspinhoCC</a>
 
-    <div class="links">
-      <ul class="nav-list">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Discover</a></li>
-        <li><a href="#">Directory</a></li>
-        <li><a class="join button" href="#">Join</a></li>
-      </ul>
+      <div class="links">
+        <ul class="nav-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Discover</a></li>
+          <li><a href="#">Directory</a></li>
+          <li><a class="join button" href="#">Join</a></li>
+        </ul>
+      </div>
+
+      <div id="mode">🌙</div>
+
+      <a id="menu"></a>
+    </nav>
+
+    <div class="hero">
+
+      <picture>
+        <source srcset="/wdd230/chamber/images/wdd230-org-small.webp" media="(max-width: 30em)">
+        <source srcset="/wdd230/chamber/images/wdd230-org-medium.webp" media="(max-width: 40em)">
+        <img src="/wdd230/chamber/images/wdd230-org.webp" alt="hero image" width="1500" height="750">
+      </picture>
+
+      <div class="hero-label">
+        <p class="hero-paragraph1">Small</p>
+        <p class="hero-paragraph2">Medium</p>
+        <p class="hero-paragraph3">Large</p>
+
+      </div>
     </div>
-    
-    <div id="mode">🌙</div>
-
-  <a id="menu"></a>
-  </nav>  
-
-  <div class="hero">
-
-    <picture>
-      <source srcset="/wdd230/chamber/images/wdd230-org-small.webp" media="(max-width: 30em)">
-      <source srcset="/wdd230/chamber/images/wdd230-org-medium.webp" media="(max-width: 40em)">
-      <img src="/wdd230/chamber/images/wdd230-org.webp" alt="hero image" width="1500" height="750">
-    </picture>
-
-    <div class="hero-label">
-      <p class="hero-paragraph1">Small</p>
-      <p class="hero-paragraph2">Medium</p>
-      <p class="hero-paragraph3">Large</p>
-
-    </div>
-  </div>
 
     <section id="hero-msg">
       <h1 class="title">Espinho Chamber of Commerce</h1>
@@ -59,9 +59,9 @@
         <a class="join-us button" href="#">Join us</a>
       </div>
     </section>
-  </div>
-</header>
- 
+
+  </header>
+
   <main>
     <h2> Welcome to the Espinho Chamber of Commerce Website</h2>
 
@@ -73,13 +73,14 @@
     <section class="weather-card card">
       <h3 class="section-title">Weather</h3>
       <p>Today's Weather
-        <ul> 
-           <li>High: 57&deg;</li>
-           <li>Low: 37&deg;</li>
-           <li>Chance of Precipitation: 45%</li>
-           <li>Wind: 15mph NW</li>
-           <li>Wind Chill: <span id="windChill"></span>&deg;</li>  
-    </ul> </p>
+      <ul>
+        <li>High: 57&deg;</li>
+        <li>Low: 37&deg;</li>
+        <li>Chance of Precipitation: 45%</li>
+        <li>Wind: 15mph NW</li>
+        <li>Wind Chill: <span id="windChill"></span>&deg;</li>
+      </ul>
+      </p>
     </section>
     <section class="spotlights card">
       <h3 class="section-title"> Spotlights</h3>
