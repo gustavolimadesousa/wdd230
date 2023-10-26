@@ -13,36 +13,46 @@
   <meta property="og:image" content="https://espinhoocean.pt/img/espinho/360p.jpg" />
   <meta property="og:url" content="https://gustavolimadesousa.github.io/wdd230/" />
 
-  <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" href="styles/base.css">
-  <link rel="stylesheet" href="styles/larger.css">
-  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="/wdd230/styles/normalize.css">
+  <link rel="stylesheet" href="/wdd230/styles/base.css">
+  <link rel="stylesheet" href="/wdd230/styles/larger.css">
+  <link rel="icon" href="/wdd230/images/favicon.ico">
 </head>
+
 
 <body>
   <header>
-    <img src="images/profileImage.webp" width="200" alt="gustavo profile image">
-    <h1>Gustavo Lima de Sousa</h1>
+    <a id="menu" href="#"></a>
+    <div class="box-image">
+      <img class="profile-image" src="/wdd230/images/profileImage.webp" alt="gustavo profile image">
+    </div>
+
+    <h1 class="header-title">Gustavo Lima de Sousa</h1>
+
+    <nav>
+      <ul class="navigation">
+        <li><a href="#">Home</a></li>
+        <li><a href="/wdd230/lesson03/chamber-site-plan.html">Site Plan</a></li>
+        <li><a href="/wdd230/chamber/">Chamber</a></li>
+        <li><a href="https://www.byui.edu/">BYU-Idaho</a></li>
+        <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng">Scripture</a></li>
+
+      </ul>
+
+    </nav>
 
   </header>
-  <nav class="navbar">
-<a id="menu" href="#"></a>
-    <ul class="navigation">
-      <li class="nav-item"><a href="#">Home</a></li>
-      <li class="nav-item"><a href="/wdd230/lesson03/chamber-site-plan.html">Site Plan</a></li>
-      <li class="nav-item"><a href="/wdd230/chamber/">Chamber</a></li>
-      <li class="nav-item"><a href="https://www.byui.edu/">BYU-Idaho</a></li>
-      <li class="nav-item"><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng">Scripture</a></li>
-    </ul>
-  </nav>
 
-  <picture>
-    <source srcset="/wdd230/lesson06/images/hero-small.webp" media="(max-width: 300px)">
-    <img src="/wdd230/lesson06/images/hero-large.webp" alt="table setting" width="960" height="600">
-  </picture>
+  <div class="hero">
 
-  <div class="herolabel">
-    <p>Brasília Brasil Temple</p>
+    <picture>
+      <source srcset="/wdd230/images/hero-small.webp" media="(max-width:750px)">
+      <img src="/wdd230/images/hero-large.webp" alt="hero image" width="1500" height="750">
+    </picture>
+
+    <div class="hero-label">
+      <p>Brasília Brazil Temple</p>
+    </div>
   </div>
 
   <main>
@@ -51,17 +61,50 @@
     <section class="card">
       <h3>Learning Activities</h3>
       <ul>
-        <li><a href="/wdd230/lesson1/holygrail.html">Holy Layout</a></li>
-        <li><a href="/wdd230/lesson2/design.html">Web Design Principles</a></li>
-        <li><a href="/wdd230/lesson1/media-query.html">Media Query</a></li>
-        <li><a href="/wdd230/lesson2/design-principles.html">Design Principles Document</a></li>
-        <li><a href="/wdd230/images/Screenshot(1139).png">Screenshot CSS Combinators</a></li>
-        <li><a href="https://codepen.io/gustavolimadesousa/pen/RwEJLya">CSS Pseudo Elements</a></li>
-        <li><a href="https://codepen.io/gustavolimadesousa/pen/vYvrWgm">Responsive "Hamburger" Menu</a></li>
-        <li><a href="https://codepen.io/gustavolimadesousa/pen/Bavqeva">Pseudo-Classes</a></li>
-        <li><a href="https://gustavolimadesousa.github.io/wdd230/lesson05/bom.html"> DOM Manipulation (Book of Mormon - Top 10)</a></li>
-        <li><a href="/wdd230/lesson06/images/landscape.webp">WebP</a></li>
-        <li><a href="/wdd230/lesson06/responsive-images.html">Responsive Images</a></li>
+        <!-- WEEK 1 -->
+        <li> <span class="week-title">Week 01</span>
+          <a href="/wdd230/lesson1/holygrail.html">Holy Layout</a>
+          <span> | </span>
+          <a href="">JS Pen</a>
+        </li>
+        <!-- WEEK 2 -->
+        <li> <span class="week-title">Week 02</span>
+          <a href="/wdd230/lesson2/design.html">Web Design Principles</a>
+          <span> | </span>
+          <a href="/wdd230/lesson1/media-query.html">Media Query</a>
+          <span> | </span>
+          <a href="/wdd230/lesson2/design-principles.html">Design Principles Document</a>
+        </li>
+        <!-- WEEK 3 -->
+        <li><span class="week-title">Week 03</span>
+          <a href="/wdd230/images/Screenshot(1139).png">Screenshot CSS Combinators</a>
+          <span> | </span>
+          <a href="https://codepen.io/gustavolimadesousa/pen/RwEJLya">CSS Pseudo Elements</a>
+          <span> | </span>
+          <a href="https://codepen.io/gustavolimadesousa/pen/vYvrWgm">Responsive "Hamburger" Menu</a>
+        </li>
+        <!-- WEEK 4 -->
+        <li><span class="week-title">Week 04</span>
+          <a href="https://codepen.io/gustavolimadesousa/pen/Bavqeva">Pseudo-Classes</a>
+        </li>
+        <!-- WEEK 5 -->
+        <li><span class="week-title">Week 05</span>
+          <a href="https://gustavolimadesousa.github.io/wdd230/lesson05/bom.html">DOM Manipulation (Book of Mormon - Top 10)</a>
+        </li>
+        <!-- WEEK 6 -->
+        <li><span class="week-title">Week 06</span>
+          <a href="/wdd230/lesson06/images/landscape.webp">WebP</a>
+          <span> | </span>
+          <a href="/wdd230/lesson06/responsive-images.html">Responsive Images</a>
+        </li>
+        <!-- WEEK 7 -->
+        <li><span class="week-title">Week 07</span>
+          <a href="">Example</a>
+          <span> | </span>
+          <a href="">Example</a>
+        </li>
+
+        
       </ul>
     </section>
 
@@ -72,20 +115,21 @@
       <p> Page Visits: 15</p>
     </section>
 
-<div class="map-responsive">
-  <iframe  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12043.16169468854!2d-8.6270636!3d41.007960100000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2spt!4v1695943701224!5m2!1sen!2spt"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
-
+    <div class="map-responsive">
+      <iframe  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12043.16169468854!2d-8.6270636!3d41.007960100000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2spt!4v1695943701224!5m2!1sen!2spt"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 
   </main>
+
   <footer>
     <p>&copy; <span class="currentYear"></span> Gustavo Sousa, Portugal </p>
     <p>Last Modification:</p>
     <p class="lastModified"></p>
 
   </footer>
-  <script src="scripts/getdates.js"></script>
+
+  <script src="/wdd230/scripts/home-script.js"></script>
+  <script src="/wdd230/scripts/getdates.js"></script>
 </body>
 
 </html>
-
