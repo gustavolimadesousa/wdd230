@@ -137,12 +137,12 @@ img {
   text-decoration: none;
 }
 
-main {
+.main-home {
   background-color: #ffffff;
   display: inline-block;
 }
 
-main h2 {
+.main-home h2 {
   color: #283d3b;
   font-family: Lato;
   font-weight: 500;
@@ -203,3 +203,33 @@ footer div {
   border-radius: 4px;
   box-shadow: 0 0 3em #fff;
 }
+
+/* DISCOVER PAGE */
+
+.main-discover{
+  display: grid;
+}
+
+.main-discover {
+  background-color: #ffffff;
+  display: inline-block;
+}
+
+.main-pictures {
+  padding: 1em 0.5em;
+  
+}
+
+.main-pictures div img {
+  border: #772e25 solid 0.5em;
+  width: 96%;
+}
+
+.main-pictures h5 {
+  margin-top: 0.5em;
+  padding-bottom: 1.5em;
+  text-align: ce;
+}
+
+
+

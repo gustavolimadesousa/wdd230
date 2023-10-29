@@ -25,8 +25,8 @@
 
       <div class="links">
         <ul class="nav-list">
-          <li><a href="/wdd230/chamber/">Home</a></li>
-          <li><a href="/wdd230/chamber/discover.html">Discover</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Discover</a></li>
           <li><a href="#">Directory</a></li>
           <li><a class="join button" href="#">Join</a></li>
         </ul>
@@ -62,42 +62,61 @@
 
   </header>
 
-  <main class="main-home">
-    <h2> Welcome to the Espinho Chamber of Commerce Website</h2>
+  <main class="main-discover">
+    <section class="discover-sidebar">
+      <div id="sidebar" class="card">
+        <h2>Last Visit</h2>
+        <p id="message"></p>
+      </div>
 
-    <section class="current-event card">
-      <h3 class="section-title">Current Event</h3>
-      <img src="/wdd230/chamber/images/current-event.webp" alt="">
-      <p>Whether you're a local looking to rediscover Espinho city or a visitor seeking a memorable experience, Nossa Senhora d'Ajuda is an event that promises to create lasting memories and celebrate the unique spirit of Espinho. Save the date and make sure to join us for several days of entertainment, culture, and fun as we come together to celebrate the magic of September in Espinho. Don't miss the Nossa Senhora d'Ajuda – the city's event of the season!</p>
+      <div class="card">
+        <h2>Demographics</h2>
+        <h3>Espinho</h3>
+        <ul>
+          <h4>Country: Portugal</h4>
+          <li>Region: Norte</li>
+          <li>Metropolitan Area: Porto</li>
+          <li>District: Aveiro</li>
+          <h4>Area</h4>
+          <li>Total: 21.06km² (8.13sq mi)</li>
+          <h4>Population</h4>
+          <li>Total: 31,702</li>
+          <li>Density: 1,500/km² (3,900/sq mi)</li>
+
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Government</h2>
+        <h3>President</h3>
+        <img src="/wdd230/chamber/images/discover/presidente_mariamanuelcruz.webp" alt="Espinho President">
+        <ul>
+          <li>Maria Manuel Cruz</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Time Zone</h2>
+        <ul>
+          <li>UTC ±00:00 (WET)</li>
+          <li>UTC +01:00 (WEST) - Summer (DST)</li>
+        </ul>
+      </div>
+
     </section>
-    <section class="weather-card card">
-      <h3 class="section-title">Weather</h3>
-      <p>Today's Weather</p>
-      <ul>
-        <li>High: 57&deg;</li>
-        <li>Low: 37&deg;</li>
-        <li>Chance of Precipitation: 45%</li>
-        <li>Wind: 15mph NW</li>
-        <li>Wind Chill: <span id="windChill"> </span>&deg;</li>
-      </ul>
-      
-    </section>
-    <section class="spotlights card">
-      <h3 class="section-title"> Spotlights</h3>
-      <div class="spot1 spot">
-        <img src="/wdd230/chamber/images/rua19.webp" alt="">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In sint exercitationem sequi illum. Cupiditate provident optio molestiae reprehenderit distinctio itaque accusantium magnam porro? Vel quis corrupti aliquam saepe laudantium inventore.</p>
-      </div>
-
-      <div class="spot2 spot">
-        <img src="/wdd230/chamber/images/rua19.webp" alt="">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In sint exercitationem sequi illum. Cupiditate provident optio molestiae reprehenderit distinctio itaque accusantium magnam porro? Vel quis corrupti aliquam saepe laudantium inventore.</p>
-      </div>
-
-      <div class="spot3 spot">
-        <img src="/wdd230/chamber/images/rua19.webp" alt="">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In sint exercitationem sequi illum. Cupiditate provident optio molestiae reprehenderit distinctio itaque accusantium magnam porro? Vel quis corrupti aliquam saepe laudantium inventore.</p>
-      </div>
+    <section class="main-pictures">
+      <div><img src="/wdd230/chamber/images/discover/camara.webp" alt="Camara Municipal" loading="lazy"></div>
+      <h5>Town Hall</h5>
+      <div><img src="/wdd230/chamber/images/discover/camara-close.webp" alt="Camara vertical" loading="lazy"></div>
+      <h5>Town Hall Entrance</h5>
+      <div><img src="/wdd230/chamber/images/discover/parque.webp" alt="Parque Espinho" loading="lazy"></div>
+      <h5>João de Deus Park</h5>
+      <div><img src="/wdd230/chamber/images/discover/rua19.webp" alt="Rua 19" loading="lazy"></div>
+      <h5>19 Street</h5>
+      <div><img src="/wdd230/chamber/images/discover/espinho.webp" alt="Espinho city" loading="lazy"></div>
+      <h5>Espinho Buildings</h5>
+      <div><img src="/wdd230/chamber/images/discover/praia.webp" alt="Praia Azul" loading="lazy"></div>
+      <h5>Praia da Baia</h5>
 
     </section>
 
@@ -123,7 +142,8 @@
 
   </footer>
   <script src="/wdd230/chamber/scripts/cham-script.js"></script>
-  <script src="/wdd230/chamber/scripts/windchill.js"></script>
+  <script src="/wdd230/chamber/scripts/visits.js"></script>
+
 </body>
 
 </html>
