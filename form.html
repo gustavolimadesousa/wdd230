@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gustavo Sousa - WDD 230 - Web Frontend Development</title>
+  <meta name="author" content="Gustavo Sousa">
+  <meta name="description" content="WDD 230 - Web Frontend Development, Gustavo Lima de Sousa - Course assignment portal">
+
+  <meta property="og:title" content="Gustavo Lima de Sousa's Homepage">
+  <meta property="og:type" content="Website">
+  <meta property="og:image" content="https://espinhoocean.pt/img/espinho/360p.jpg">
+  <meta property="og:url" content="https://gustavolimadesousa.github.io/wdd230/">
+
+  <link rel="stylesheet" href="/wdd230/styles/normalize.css">
+  <link rel="stylesheet" href="/wdd230/styles/base.css">
+  <link rel="stylesheet" href="/wdd230/styles/larger.css">
+  <link rel="icon" href="/wdd230/images/favicon.ico">
+</head>
+
+
+<body>
+  <header>
+    <a id="menu" href="#"></a>
+    <div class="box-image">
+      <img class="profile-image" src="/wdd230/images/profileImage.webp" alt="gustavo profile image">
+    </div>
+
+    <h1 class="header-title">Gustavo Lima de Sousa</h1>
+
+    <nav>
+      <ul class="navigation">
+        <li><a href="/wdd230/">Home</a></li>
+        <li><a href="/wdd230/lesson03/chamber-site-plan.html">Site Plan</a></li>
+        <li><a href="/wdd230/chamber/">Chamber</a></li>
+        <li><a href="https://www.byui.edu/">BYU-Idaho</a></li>
+        <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng">Scripture</a></li>
+        <li><a href="/wdd230/form.html">Sign Up</a></li>
+
+      </ul>
+
+    </nav>
+
+  </header>
+
+
+
+  <main>
+<form>
+  <label>Username: <input type="text" name="username" id="username" required></label>
+  <label>Password: <input type="password" name="password" id="passoword" required pattern="[a-zA-Z09 -]{8, }"></label>
+  <label>Repeat Password: <input type="password" name="password-repeat" id="password-repeat" required></label>
+  <label>Email: <input type="email" name="email" id="username" required pattern="[a-zA-Z09._%+-]+@byui\edu$""></label>
+  <label>Page Rating: <input type="range" min="1" max="10" step="1" value="1"></label>
+  <datalist id="rangevalues">
+    <option value="1"></option> 
+    <option value="2"></option> 
+    <option value="3"></option> 
+    <option value="4"></option> 
+    <option value="5"></option> 
+    <option value="6"></option> 
+    <option value="7"></option> 
+    <option value="8"></option> 
+    <option value="9"></option> 
+    <option value="10"></option> 
+
+  </datalist>
+
+</form>
+  </main>
+
+  <footer>
+    <p>&copy; <span class="currentYear"></span> Gustavo Sousa, Portugal </p>
+    <p>Last Modification:</p>
+    <p class="lastModified"></p>
+
+  </footer>
+
+  <script src="/wdd230/scripts/home-script.js"></script>
+  <script src="/wdd230/scripts/getdates.js"></script>
+  <script src="/wdd230/scripts/localstorage.js"></script>
+</body>
+
+</html>
