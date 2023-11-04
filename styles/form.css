@@ -25,6 +25,15 @@ select {
 	font-size: 1.1rem;
 }
 
+input:focus,
+textarea:focus {
+	outline: none;
+}
+
+input::placeholder {
+	font-size: 13px;
+}
+
 button {
   margin-top: 2em;
   padding: .8em;
