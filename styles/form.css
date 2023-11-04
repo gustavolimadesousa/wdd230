@@ -22,8 +22,6 @@ textarea,
 select {
 	padding: 10px;
 	margin-bottom: 20px;
-	border: 1;
-	/* border-bottom: 1px solid navy; */
 	font-size: 1.1rem;
 }
 
