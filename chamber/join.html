@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Espinho Chamber of Commerce</title>
+  <meta name="description" content="WDD230 - Web Frontend Development, Gustavo Lima de Sousa - Chamber of Commerce Homepage">
+  <meta name="author" content="Gustavo Sousa">
+  <link rel="icon" href="images/favicon.ico">
+  <meta property="og:title" content="Espinho Chamber of Commerce's Homepage">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://portal.cm-espinho.pt/fotos/editor2/Imagens/CME_exterior_800_v1.jpg">
+  <meta property="og:url" content="https://gustavolimadesousa.github.io/wdd230/chamber/">
+  <link rel="stylesheet" href="/wdd230/chamber/styles/normalize.css">
+  <link rel="stylesheet" href="/wdd230/chamber/styles/base.css">
+  <link rel="stylesheet" href="/wdd230/chamber/styles/medium.css">
+  <link rel="stylesheet" href="/wdd230/chamber/styles/larger.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a class="logo">EspinhoCC</a>
+
+      <div class="links">
+        <ul class="nav-list">
+          <li><a href="/wdd230/chamber/">Home</a></li>
+          <li><a href="/wdd230/chamber/discover.html">Discover</a></li>
+          <li><a href="#">Directory</a></li>
+          <li><a class="join button" href="/wdd230/chamber/join.html">Join</a></li>
+        </ul>
+      </div>
+
+      <div id="mode">🌙</div>
+
+      <a id="menu"></a>
+    </nav>
+
+    <!-- <div class="hero"> -->
+
+      <!-- <picture>
+        <source srcset="/wdd230/chamber/images/wdd230-org-small.webp" media="(max-width: 30em)">
+        <source srcset="/wdd230/chamber/images/wdd230-org-medium.webp" media="(max-width: 40em)">
+        <img src="/wdd230/chamber/images/wdd230-org.webp" alt="hero image" width="1500" height="750">
+      </picture> -->
+
+      <!-- <div class="hero-label">
+        <p class="hero-paragraph1">Small</p>
+        <p class="hero-paragraph2">Medium</p>
+        <p class="hero-paragraph3">Large</p> -->
+
+      </div>
+    </div>
+
+    <section id="hero-msg">
+      <h1 class="title">Espinho Chamber of Commerce</h1>
+      <div class="button-box">
+        <!-- <a class="join-us button" href="/wdd230/form.html">Join us</a> -->
+      </div>
+    </section>
+
+  </header>
+
+  <main>
+    <form method="get" action="record.html">
+      <h1>Join us</h1>
+        <label for="username">First Name:*</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Last Name:*</label>
+        <input type="password" id="password" name="password" required pattern="^[a-zA-Z0-9]{8,}$">
+
+        <label for="confirmPassword">Title / Position:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required oninput="checkPasswordMatch(this)">
+
+        <label for="email">Email:*</label>
+        <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address">
+
+        <label for="email">Phone Number: </label>
+        <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address">
+
+        <label for="email">Business / Organization's name:</label>
+        <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address">
+
+        <label for="username">Description</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="username">Timestamp</label>
+        <input type="text" id="username" name="username" required>
+
+    
+
+        <button type="submit">Join Now</button>
+    </form>
+  </main>
+
+  <footer>
+    <div class="copyright">
+      <p>&copy; <span class="currentYear"></span> Gustavo Sousa, Portugal </p>
+      <p>Web Frontend Development | WDD230</p>
+    </div>
+
+    <div class="lastmod">
+      <p>Last Modification:</p>
+      <p class="lastModified"></p>
+    </div>
+
+    <div class="contacts">
+      <p>Contact Information</p>
+      <p>+999 999 999</p>
+      <p>espinhocc@org.pt</p>
+    </div>
+
+
+  </footer>
+  <script src="/wdd230/chamber/scripts/cham-script.js"></script>
+  <script src="/wdd230/chamber/scripts/windchill.js"></script>
+</body>
+
+</html>
