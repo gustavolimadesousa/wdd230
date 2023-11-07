@@ -241,14 +241,29 @@ footer div {
 	margin: 20px auto;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	background-color: #fff;
-	max-width:40em;
+
+
 }
 
 form {
-	margin: 20px;
-	display: flex;
-	flex-direction: column;
-	position: relative;
+	margin: 2em;
+
+}
+
+.input{
+  display: block;
+  padding-top: .8rem;
+font-size: .8rem; 
+}
+
+label input, select, textarea {
+  display: block;
+   border: solid #283d3b 1px;
+   border-radius: 4px;
+   font-size: 1rem;
+   width: 100%;
+   max-width: 25rem;
+   background-color: rgb(0, 0, 0,0.1)
 }
 
 h1 {
@@ -276,8 +291,43 @@ input::placeholder {
 button {
   margin-top: 2em;
   padding: .8em;
-  background-color: #1D4D72;
+  background-color: #283d3b;
   color: #fff;
   border: none;
+  border-radius: 4px;
 }
+
+.membership{
+  background-color: #772e25;
+  color: #fff;
+  padding: 2em;
+}
+
+.membership h1, h2 {
+  text-align: center;
+}
+
+.member-card {
+  background-color: #fff;
+  color: #283d3b;
+  padding: .5em 2em;
+  margin: 1em;
+  border: #283d3b solid 2px;
+  border-radius: 4px;
+}
+
+/* Thanks page  */
+
+.main-thanks {
+  background-color: #fff;
+  padding: 1em 1em 10em 1em;
+}
+
+.main-thanks h1 {
+  margin: 0px;
+}
+
+
+
+
 

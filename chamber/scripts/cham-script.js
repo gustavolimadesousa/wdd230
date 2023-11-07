@@ -69,4 +69,16 @@ modeButton.addEventListener("click", () => {
 	}
 });
 
+// FORM TIMESTAMP
+
+        // JavaScript code to update the timestamp field
+        function updateTimestamp() {
+          const timestampField = document.getElementById("timestamp");
+          const currentTimestamp = new Date().toLocaleString();
+          timestampField.value = currentTimestamp;
+      }
+
+      // Call the function to update the timestamp when the form is loaded
+      window.onload = updateTimestamp;
+
 

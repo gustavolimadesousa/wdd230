@@ -112,7 +112,22 @@
 
 }
 
+/* JOIN PAGE */
 
+.main-join {
+	/* max-width:40em; */
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+}
+
+.membership{
+  grid-column: 2/3;
+}
+
+form {
+	margin: 2em 7em;
+
+}
 
 
 }

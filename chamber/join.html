@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Espinho Chamber of Commerce</title>
-  <meta name="description" content="WDD230 - Web Frontend Development, Gustavo Lima de Sousa - Chamber of Commerce Homepage">
+  <title>Espinho Chamber of Commerce - Join Page</title>
+  <meta name="description" content="Espinho Chamber of Commerce - Join Page">
   <meta name="author" content="Gustavo Sousa">
   <link rel="icon" href="images/favicon.ico">
   <meta property="og:title" content="Espinho Chamber of Commerce's Homepage">
@@ -63,48 +63,96 @@
   </header>
 
   <main class="main-join">
-    <form method="get" action="record.html">
-      <h1>Join us</h1>
-        <label for="username">First Name:*</label>
-        <input type="text" id="username" name="username" required>
-
-        <label for="password">Last Name:*</label>
-        <input type="password" id="password" name="password" required pattern="^[a-zA-Z0-9]{8,}$">
-
-        <label for="confirmPassword">Title / Position:</label>
-        <input type="password" id="confirmPassword" name="confirmPassword" required oninput="checkPasswordMatch(this)">
-
-        <label for="email">Email:*</label>
-        <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address">
-
-        <label for="email">Phone Number: </label>
-        <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address">
-
-        <label for="email">Business / Organization's name:</label>
-        <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address">
-
-        <label >Course Subject
-          <select name="subject">
-              <option value="">Please Select &#9662;</option>
-              <option value="software">NP Membership is for non profit organizations and there is no fee</option>
-              <option value="creative">Bronze Membership</option>
-              <option value="info">Bronze Membership</option>
-              <option value="data">Gold Membership</option>
-
-           </select>
-
-        <label for="username">Description</label>
-        <input type="text" id="username" name="username" required>
-
-        <label for="username">Timestamp</label>
-        <input type="text" id="username" name="username" required>
-
     
+    <form method="get" action="thankyou.html" id="myForm">
+      <h1>Join The Chamber of Commerce</h1>
+        <label class="input">First Name:* <input type="text" id="firstName" name="firstName" required></label>
 
-        <button type="submit">Join Now</button>
+        <label class="input">Last Name:* <input type="text" id="lastName" name="lastName" required></label>
+
+        <label class="input">Title / Position:
+        <input type="text" id="titlePosition" name="titlePosition" pattern="^[a-zA-Z\- ]{7,}$
+        "></label>
+
+        <label class="input">Email:* <input type="email" id="email" name="email" required  placeholder="someone@byui.edu"></label>
+
+        <label class="input">Phone Number: <input type="tel" id="tel" name="phone" required></label>
+
+        <label class="input">Business / Organization's name: <input type="text" id="businessName" name="businessName" required></label>
+
+        <label class="input">Membership Level: 
+          <select name="membership">
+              <option value="">Please Select &#9662;</option>
+              <option value="np">NP Membership is for non profit organizations and there is no fee</option>
+              <option value="bronze">Bronze Membership</option>
+              <option value="silver">Silver Membership</option>
+              <option value="gold">Gold Membership</option>
+           </select></label>
+           
+
+        <label class="input">Description <textarea type="text" id="description" name="description" rows="4" cols="50"></textarea></label>
+        
+        <label class="input timestamp"><input type="hidden" id="timestamp" name="timestamp"></label>
+
+        <button type="submit">Join Chamber</button>
     </form>
-  </main>
 
+    <section class="membership">
+      <h1>Membership Benefits</h1>
+      <div class="member-card">
+        <h2>Non Profit</h2>
+        <p><strong>Cost: </strong>No fees.</p>
+        <strong>Benefits: </strong>
+        <ul>
+          <li>Regular updates and newsletters to keep members informed about the organization's activities, achievements, and upcoming events.</li>
+          <li>Opportunities to connect with like-minded individuals or organizations working towards a common goal.</li>
+          
+        </ul> 
+      </div>
+      <div class="member-card">
+        <h2>Bronze Membership</h2>
+         <p><strong>Cost: </strong>This is the basic level of membership with the lowest cost.</p>
+          <strong>Benefits: </strong>
+          <ul>
+            <li>Access to the organization's newsletter and updates.</li>
+            <li>Invitation to annual general meetings.</li>
+            <li>Opportunity to volunteer at events.</li>
+            <li>Basic member-only discounts for organization events and merchandise.</li>
+            <li>Recognition as a Bronze member on the organization's website and materials.</li>
+          </ul> 
+          
+      </div>
+      <div class="member-card">
+        <h2>Silver Membership</h2>
+        <p><strong>Cost: </strong>A moderate increase in membership fees.</p>
+          <strong>Benefits: </strong>
+          <ul>
+            <li>All benefits of Bronze membership.</li>
+            <li>Access to exclusive webinars, workshops, or training sessions.</li>
+            <li>Priority registration and discounts for special events and conferences.</li>
+            <li>Silver member badge or certificate.</li>
+            <li>Inclusion in the organization's annual report as a Silver member.</li>
+          </ul>
+      </div>
+      <div class="member-card">
+        <h2>Gold Membership</h2>
+        <p><strong>Cost: </strong>The highest level of membership with the highest fees.</p>
+          <strong>Benefits: </strong>
+          <ul>
+            <li>All benefits of Bronze and Silver memberships.</li>
+            <li>Access to members-only networking events and exclusive seminars.</li>
+            <li>Premium advertising space in the organization's publications or website.</li>
+            <li>Significant discounts on all organization events and merchandise.</li>
+            <li>Gold member plaque or certificate.</li>
+            <li>Personalized recognition and appreciation during the annual general meeting.</li>
+          </ul>
+      </div>
+    </section>
+
+
+   
+  </main>
+ 
   <footer>
     <div class="copyright">
       <p>&copy; <span class="currentYear"></span> Gustavo Sousa, Portugal </p>
@@ -125,7 +173,6 @@
 
   </footer>
   <script src="/wdd230/chamber/scripts/cham-script.js"></script>
-  <script src="/wdd230/chamber/scripts/windchill.js"></script>
 </body>
 
 </html>
