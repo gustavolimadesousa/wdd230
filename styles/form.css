@@ -31,8 +31,11 @@ border: #1d4d72 solid 2px;
 border-radius: 10px;
 }
 
+
+
 button {
 	padding: 1em 2em;
+	margin-top: 2em;
 	background-color: var(--btn-color);
 	color: #fff;
 }
