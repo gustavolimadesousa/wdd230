@@ -1,43 +1,42 @@
-main {
-	margin: 20px auto;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	background-color: #fff;
-	max-width: 16.5em;
+:root {
+	--text-color: #000;
+	--btn-color: #1d4d72;
+	--bg-color: #fff;
 }
 
-form {
-	margin: 20px;
-	display: flex;
-	flex-direction: column;
-	position: relative;
+main{
+	display:block;
+	max-width: 700px;
+	margin: 2em auto;
+	background-color:var(--bg-color);
 }
 
-h1 {
-	margin: 20px;
-	font-size: 1.5rem;
+h1{
+	color: var(--text-color);
+	font-weight: 300;
 }
 
-input,
-textarea,
-select {
-	padding: 10px;
-	margin-bottom: 20px;
-	font-size: 1.1rem;
+label{
+	display: grid;
+	padding: 1em;
+	align-items: left;
+	color: var(--text-color);
 }
 
-input:focus,
-textarea:focus {
-	outline: none;
-}
-
-input::placeholder {
-	font-size: 13px;
+input{
+	display: block;
+ padding: 1em;
+ margin-top: 0.5em;
+border: #1d4d72 solid 2px;
+border-radius: 10px;
 }
 
 button {
-  margin-top: 2em;
-  padding: .8em;
-  background-color: #1D4D72;
-  color: #fff;
-  border: none;
+	padding: 1em 2em;
+	background-color: var(--btn-color);
+	color: #fff;
+}
+
+#error {
+	color: red;
 }

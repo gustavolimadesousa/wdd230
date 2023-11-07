@@ -51,22 +51,19 @@
     
 
     <form method="get" action="record.html">
-      <h1>Sign Up</h1>
-        <label for="username">Username:*</label>
-        <input type="text" id="username" name="username" required>
+      <h1>Sign Up to Gustavo's Community</h1>
+        <label>Username:* <input type="text" id="username" name="username" required></label>
 
-        <label for="password">Password:*</label>
-        <input type="password" id="password" name="password" required pattern="^[a-zA-Z0-9]{8,}$">
+        <label>Password:* <input type="password" id="pass1" name="password" required pattern="^[a-zA-Z0-9]{8,}$"></label>
 
-        <label for="confirmPassword">Confirm Password:*</label>
-        <input type="password" id="confirmPassword" name="confirmPassword" required oninput="checkPasswordMatch(this)">
+        <label>Confirm Password:* <input type="password" id="pass2" name="confirmPassword" required oninput="checkPasswordMatch(this)"></label>
+        <div id="error" ></div>
 
-        <label for="email">Email:*</label>
-        <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address">
+        <label>Email:* <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" placeholder="someone123@byui.edu" title="Please enter a valid email address"></label>
 
-        <label for="pageRating">Page Rating:</label>
-        <input type="range" id="pageRating" name="pageRating" min="1" max="10" step="1" oninput="updateValue(this.value)">
-        <output for="pageRating" id="ratingOutput">1</output>
+        <label>Page Rating: <input type="range" id="pageRating" name="pageRating" min="1" max="10" step="1" oninput="updateValue(this.value)"><output for="pageRating" id="ratingOutput">1</output></label>
+        
+        <div id="error" ></div>
 
         <button type="submit">Confirm Registration</button>
     </form>
