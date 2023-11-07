@@ -266,11 +266,6 @@ label input, select, textarea {
    background-color: rgb(0, 0, 0,0.1)
 }
 
-h1 {
-	margin: 1em;
-	font-size: 1.5rem;
-  text-align: center;
-}
 
 input,
 textarea,
