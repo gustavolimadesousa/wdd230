@@ -267,7 +267,7 @@ label input, select, textarea {
 }
 
 h1 {
-	margin: px;
+	margin: 0px;
 	font-size: 1.5rem;
   text-align: center;
 }
