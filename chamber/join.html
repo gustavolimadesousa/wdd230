@@ -62,7 +62,7 @@
 
   </header>
 
-  <main>
+  <main class="main-join">
     <form method="get" action="record.html">
       <h1>Join us</h1>
         <label for="username">First Name:*</label>
@@ -82,6 +82,16 @@
 
         <label for="email">Business / Organization's name:</label>
         <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address">
+
+        <label >Course Subject
+          <select name="subject">
+              <option value="">Please Select &#9662;</option>
+              <option value="software">NP Membership is for non profit organizations and there is no fee</option>
+              <option value="creative">Bronze Membership</option>
+              <option value="info">Bronze Membership</option>
+              <option value="data">Gold Membership</option>
+
+           </select>
 
         <label for="username">Description</label>
         <input type="text" id="username" name="username" required>

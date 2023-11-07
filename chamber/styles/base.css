@@ -237,11 +237,11 @@ footer div {
 
 /* Join Page */
 
-main {
+.main-join {
 	margin: 20px auto;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	background-color: #fff;
-	max-width: 30em;
+	max-width:40em;
 }
 
 form {
