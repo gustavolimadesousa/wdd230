@@ -64,7 +64,7 @@ nav {
   background-color: #283d3b;
   color: #ffffff;
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
   padding: 1em;
 }
@@ -175,26 +175,25 @@ footer div {
   padding: 1em;
 }
 
-.hero-paragraph2, .hero-paragraph3 {
+.hero-paragraph2,
+.hero-paragraph3 {
   display: none;
 }
 
 .hero {
   position: relative;
-
 }
 
 .hero img {
   width: 100%;
   height: auto;
- 
 }
 
 .hero-label {
   position: absolute;
   top: 1.5em;
   right: 1.5em;
-  padding: .15em 2em;
+  padding: 0.15em 2em;
   border: 1px solid #b4b9bc;
   background-color: #f0f8ff;
   opacity: 0.75;
@@ -206,7 +205,7 @@ footer div {
 
 /* DISCOVER PAGE */
 
-.main-discover{
+.main-discover {
   display: grid;
 }
 
@@ -217,7 +216,6 @@ footer div {
 
 .main-pictures {
   padding: 1em 0.5em;
-  
 }
 
 .main-pictures div img {
@@ -231,82 +229,81 @@ footer div {
   text-align: center;
 }
 
-.discover-card{
+.discover-card {
   padding-top: 0.5em;
 }
 
 /* Join Page */
 
 .main-join {
-	margin: 20px auto;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	background-color: #fff;
-
-
+  margin: 20px auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #fff;
 }
 
 form {
-	margin: 2em;
-
+  margin: 2em;
 }
 
-.input{
+.input {
   display: block;
-  padding-top: .8rem;
-font-size: .8rem; 
+  padding-top: 0.8rem;
+  font-size: 0.8rem;
 }
 
-label input, select, textarea {
+label input,
+select,
+textarea {
   display: block;
-   border: solid #283d3b 1px;
-   border-radius: 4px;
-   font-size: 1rem;
-   width: 100%;
-   max-width: 25rem;
-   background-color: rgb(0, 0, 0,0.1)
+  border: solid #283d3b 1px;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 25rem;
+  background-color: rgb(0, 0, 0, 0.1);
 }
-
 
 input,
 textarea,
 select {
-	padding: 10px;
-	margin-bottom: 20px;
-	font-size: 1.1rem;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
 }
 
 input:focus,
 textarea:focus {
-	outline: none;
+  outline: none;
 }
 
 input::placeholder {
-	font-size: 13px;
+  font-size: 13px;
 }
 
 button {
   margin-top: 2em;
-  padding: .8em;
+  padding: 0.8em;
   background-color: #283d3b;
   color: #fff;
   border: none;
   border-radius: 4px;
 }
 
-.membership{
+.membership {
   background-color: #772e25;
   color: #fff;
   padding: 2em;
 }
 
-.membership h1, h2 {
+.membership h1,
+h2 {
   text-align: center;
 }
 
 .member-card {
   background-color: #fff;
   color: #283d3b;
-  padding: .5em 2em;
+  padding: 0.5em 2em;
   margin: 1em;
   border: #283d3b solid 2px;
   border-radius: 4px;
@@ -325,31 +322,53 @@ button {
 
 /* Directory page */
 
-  /* Add your CSS styles for grid and list views here */
-    /* Example styles: */
-    .grid-view {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 10px;
-    }
-    .list-view {
-      /* Add styles for the list view */
-    }
+.grid-view {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+}
 
+.grid-view,
+.list-view a {
+  text-decoration: none;
+}
+
+.list-view .member-card {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.list-view .member-card h2 {
+  padding: 0em 1em;
+  font-size: 1.1em;
+}
+
+.list-view .member-card p {
+  padding: 0em 1em;
+  font-size: 0.8em;
+}
+
+.list-view .member-card img {
+  display: none;
+}
+
+.list-view .lastp {
+  display: none;
+}
 
 .buttons {
   display: flex;
   justify-content: center;
 }
 
-.button1{
-margin: 0 5px;
+.button1 {
+  margin: 0 5px;
 }
 
-.button2{
+.button2 {
   margin: 0 5px;
 }
 
 .title-directory h1 {
-text-align: center;
+  text-align: center;
 }

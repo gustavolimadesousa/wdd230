@@ -4,64 +4,64 @@
         "name": "Quebramar",
         "address": "R. 19 202, 4500-255 Espinho",
         "phone": "(+351) 234 245 893",
-        "website": "https://www.quebramar.com/pt/",
+        "website": "https://www.quebramar.com/pt",
         "image": "quebramar.webp",
         "membership_level": "Gold",
-        "other_info": "A Quebramar foi criada em 1989, na vila de Cascais."
+        "other_info": "Quebramar was created in 1989, in the town of Cascais."
       },
       {
-        "name": "Company B",
-        "address": "456 Oak St, Townsville",
-        "phone": "555-5678",
-        "website": "https://www.companyb.com",
-        "image": "companyb.jpg",
+        "name": "Parfois",
+        "address": "R. 19 470, 4500-255 Espinho",
+        "phone": "(+351) 932 264 364",
+        "website": "https://www.parfois.com/pt",
+        "image": "parfois.svg",
+        "membership_level": "Gold",
+        "other_info": "Parfois is a global women's fashion accessories brand, created in 1994."
+      },
+      {
+        "name": "Calzedonia",
+        "address": "R. 19 484, 4500-255 Espinho",
+        "phone": "(+351) 227 314 226",
+        "website": "https://www.calzedonia.com/pt",
+        "image": "calzedonia.svg",
+        "membership_level": "Gold",
+        "other_info": "The Calzedonia Group opened in Verona, Italy in 1986."
+      },
+      {
+        "name": "Ale-Hop",
+        "address": "R. 19 221 e 223, 4500-256 Espinho",
+        "phone": "(+351) 227 382 445",
+        "website": "https://www.ale-hop.org/pt",
+        "image": "ale-hop.svg",
         "membership_level": "Silver",
-        "other_info": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "other_info": "Originally from Gata de Gorgos (Alicante), Vicente Grimalt began his professional career in 1968."
       },
       {
-        "name": "Company C",
-        "address": "123 Main St, Cityville",
-        "phone": "555-1234",
-        "website": "https://www.companya.com",
-        "image": "companya.jpg",
-        "membership_level": "Gold",
-        "other_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "name": "W52",
+        "address": "R. 19 330, 4500-255 Espinho",
+        "phone": "(+351) 223 320 386",
+        "website": "https://w52-jeans.com",
+        "image": "w52.svg",
+        "membership_level": "Bronze",
+        "other_info": "Empresa Portuguesa referência no panorama nacional no setor do retalho de vestuário."
       },
       {
-        "name": "Company D",
-        "address": "123 Main St, Cityville",
-        "phone": "555-1234",
-        "website": "https://www.companya.com",
-        "image": "companya.jpg",
+        "name": "Tifossi",
+        "address": "R. 19 340, 4500-256 Espinho",
+        "phone": "(+351) 229 352 456",
+        "website": "https://www.tiffosi.com",
+        "image": "tiffosi.webp",
         "membership_level": "Gold",
-        "other_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "other_info": "A Tiffosi é uma marca de moda especializada no desenvolvimento e inovação em Denim."
       },
       {
-        "name": "Company E",
-        "address": "123 Main St, Cityville",
-        "phone": "555-1234",
-        "website": "https://www.companya.com",
-        "image": "companya.jpg",
-        "membership_level": "Gold",
-        "other_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      },
-      {
-        "name": "Company F",
-        "address": "123 Main St, Cityville",
-        "phone": "555-1234",
-        "website": "https://www.companya.com",
-        "image": "companya.jpg",
-        "membership_level": "Gold",
-        "other_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      },
-      {
-        "name": "Company G",
-        "address": "123 Main St, Cityville",
-        "phone": "555-1234",
-        "website": "https://www.companya.com",
-        "image": "companya.jpg",
-        "membership_level": "Gold",
-        "other_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "name": "Inside",
+        "address": "R. 19 421, 4500-257 Espinho",
+        "phone": "(+351) 227 325 146",
+        "website": "https://inside-shops.com",
+        "image": "inside.svg",
+        "membership_level": "Silver",
+        "other_info": "Iinside believe that the time has come to reinvent fashion."
       }
 
     ]

@@ -13,13 +13,14 @@
 
         // Customize the card structure based on your requirements
         memberCard.innerHTML = `
-          <img src="/wdd230/chamber/images/${member.image}" alt="${member.name}">
+          
           <h2>${member.name}</h2>
           <p>${member.address}</p>
           <p>Phone: ${member.phone}</p>
           <p>Website: <a href="${member.website}" target="_blank">${member.website}</a></p>
           <p>Membership Level: ${member.membership_level}</p>
-          <p>${member.other_info}</p>
+          <img src="/wdd230/chamber/images/directory/${member.image}" alt="${member.name}">
+          <p class="lastp">${member.other_info}</p> 
         `;
 
         container.appendChild(memberCard);
