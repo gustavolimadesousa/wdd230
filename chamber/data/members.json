@@ -1,13 +1,13 @@
 {
     "companies": [
       {
-        "name": "Company A",
-        "address": "123 Main St, Cityville",
-        "phone": "555-1234",
-        "website": "https://www.companya.com",
-        "image": "companya.jpg",
+        "name": "Quebramar",
+        "address": "R. 19 202, 4500-255 Espinho",
+        "phone": "(+351) 234 245 893",
+        "website": "https://www.quebramar.com/pt/",
+        "image": "quebramar.webp",
         "membership_level": "Gold",
-        "other_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "other_info": "A Quebramar foi criada em 1989, na vila de Cascais."
       },
       {
         "name": "Company B",
@@ -17,6 +17,51 @@
         "image": "companyb.jpg",
         "membership_level": "Silver",
         "other_info": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "name": "Company C",
+        "address": "123 Main St, Cityville",
+        "phone": "555-1234",
+        "website": "https://www.companya.com",
+        "image": "companya.jpg",
+        "membership_level": "Gold",
+        "other_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "name": "Company D",
+        "address": "123 Main St, Cityville",
+        "phone": "555-1234",
+        "website": "https://www.companya.com",
+        "image": "companya.jpg",
+        "membership_level": "Gold",
+        "other_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "name": "Company E",
+        "address": "123 Main St, Cityville",
+        "phone": "555-1234",
+        "website": "https://www.companya.com",
+        "image": "companya.jpg",
+        "membership_level": "Gold",
+        "other_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "name": "Company F",
+        "address": "123 Main St, Cityville",
+        "phone": "555-1234",
+        "website": "https://www.companya.com",
+        "image": "companya.jpg",
+        "membership_level": "Gold",
+        "other_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "name": "Company G",
+        "address": "123 Main St, Cityville",
+        "phone": "555-1234",
+        "website": "https://www.companya.com",
+        "image": "companya.jpg",
+        "membership_level": "Gold",
+        "other_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       }
 
     ]

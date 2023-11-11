@@ -39,14 +39,17 @@
 
   </header>
 
-  <main class="directory">
-    <div>
-        <button id="grid">Grid View</button>
-        <button id="list">List View</button>
+  <main class="main-directory">
+    <div class="buttons">
+    <div class="button1"><button onclick="toggleView('grid')">Grid View</button></div>
+    <div class="button2"><button onclick="toggleView('list')">List View</button> </div>
+  </div>
+
+  <div class="title-directory"><h1>List of Members</h1></div>
+
+    <div id="members-container" class="grid-view">
+      <!-- Member cards or list items will be dynamically added here using JavaScript -->
     </div>
-    <article id="member-list" class="grid">
-        <h2>Directory Listing</h2>
-    </article>
 </main>
 
   <footer>
