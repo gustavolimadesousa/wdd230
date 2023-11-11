@@ -171,7 +171,7 @@ footer {
   font-size: 0.9em;
 }
 
-footer div {
+.footerbox {
   padding: 1em;
 }
 
@@ -184,7 +184,7 @@ footer div {
   position: relative;
 }
 
-.hero img {
+.hero-img {
   width: 100%;
   height: auto;
 }
@@ -218,12 +218,12 @@ footer div {
   padding: 1em 0.5em;
 }
 
-.main-pictures div img {
+.main-pics {
   border: #772e25 solid 0.5em;
   width: 96%;
 }
 
-.main-pictures h5 {
+.pic-captions {
   margin-top: 0.5em;
   padding-bottom: 1.5em;
   text-align: center;
