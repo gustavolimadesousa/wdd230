@@ -295,8 +295,7 @@ button {
   padding: 2em;
 }
 
-.membership h1,
-h2 {
+.member-title {
   text-align: center;
 }
 
