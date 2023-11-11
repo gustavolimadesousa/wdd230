@@ -338,23 +338,17 @@ h2 {
   grid-template-columns: repeat(5, 1fr);
 }
 
-.list-view .member-card h2 {
+.list-view .member-card h2, .list-view .member-card p {
   padding: 0em 1em;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
-.list-view .member-card p {
-  padding: 0em 1em;
-  font-size: 0.8em;
-}
 
-.list-view .member-card img {
+
+.list-view .member-card img, .list-view .lastp {
   display: none;
 }
 
-.list-view .lastp {
-  display: none;
-}
 
 .buttons {
   display: flex;
