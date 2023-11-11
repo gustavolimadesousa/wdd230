@@ -328,8 +328,8 @@ h2 {
   gap: 10px;
 }
 
-.grid-view,
-.list-view a {
+.grid-view .directory-links,
+.list-view .directory-links{
   text-decoration: none;
 }
 
@@ -345,7 +345,7 @@ h2 {
 
 
 
-.list-view .member-card img, .list-view .lastp {
+.list-view .directory-img, .list-view .lastp {
   display: none;
 }
 
@@ -355,11 +355,7 @@ h2 {
   justify-content: center;
 }
 
-.button1 {
-  margin: 0 5px;
-}
-
-.button2 {
+.button1, .button2  {
   margin: 0 5px;
 }
 

@@ -17,9 +17,9 @@
           <h2>${member.name}</h2>
           <p>${member.address}</p>
           <p>Phone: ${member.phone}</p>
-          <p>Website: <a href="${member.website}" target="_blank">${member.website}</a></p>
+          <p>Website: <a class="directory-links" href="${member.website}" target="_blank">${member.website}</a></p>
           <p>Membership Level: ${member.membership_level}</p>
-          <img src="/wdd230/chamber/images/directory/${member.image}" alt="${member.name}">
+          <img class="directory-img" src="/wdd230/chamber/images/directory/${member.image}" alt="${member.name}">
           <p class="lastp">${member.other_info}</p> 
         `;
 
