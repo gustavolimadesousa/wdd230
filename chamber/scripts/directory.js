@@ -13,7 +13,7 @@
 
         // Customize the card structure based on your requirements
         memberCard.innerHTML = `
-          <img src="https://gustavolimadesousa.github.io/wdd230/chamber/images/${member.image}" alt="${member.name}">
+          <img src="/wdd230/chamber/images/${member.image}" alt="${member.name}">
           <h2>${member.name}</h2>
           <p>${member.address}</p>
           <p>Phone: ${member.phone}</p>
