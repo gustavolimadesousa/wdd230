@@ -327,8 +327,7 @@ button {
   gap: 10px;
 }
 
-.grid-view .directory-links,
-.list-view .directory-links{
+.directory-links{
   text-decoration: none;
 }
 
