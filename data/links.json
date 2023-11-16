@@ -135,12 +135,8 @@
     "lesson": "10",
     "links": [
       {
-        "url": "",
-        "title": "Example"
-      },
-      {
-        "url": "",
-        "title": "Example2"
+        "url": "https://gustavolimadesousa.github.io/wdd230/lesson10/weather.html",
+        "title": "Weather API Test"
       }
     ]
     
