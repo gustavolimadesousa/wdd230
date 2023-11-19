@@ -19,6 +19,10 @@
 </head>
 
 <body>
+  <div class="banner" id="banner">
+    <p>Join us for the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.!</p>
+    <span class="close-btn" id="closeBtn">&times;</span>
+  </div>
   <header>
     <nav>
       <a class="logo">EspinhoCC</a>
@@ -70,17 +74,28 @@
       <img src="/wdd230/chamber/images/current-event.webp" alt="">
       <p>Whether you're a local looking to rediscover Espinho city or a visitor seeking a memorable experience, Nossa Senhora d'Ajuda is an event that promises to create lasting memories and celebrate the unique spirit of Espinho. Save the date and make sure to join us for several days of entertainment, culture, and fun as we come together to celebrate the magic of September in Espinho. Don't miss the Nossa Senhora d'Ajuda – the city's event of the season!</p>
     </section>
+
     <section class="weather-card card">
       <h3 class="section-title">Weather</h3>
-      <p>Today's Weather</p>
-      <ul>
-        <li>High: 57&deg;</li>
-        <li>Low: 37&deg;</li>
-        <li>Chance of Precipitation: 45%</li>
-        <li>Wind: 15mph NW</li>
-        <li>Wind Chill: <span id="windChill"> </span>&deg;</li>
-      </ul>
-      
+      <h4>Today's Weather</h4>
+      <p> Espinho, Portugal</p>
+      <p id="current-temp"></p>
+      <figure>
+        <img id="weather-icon" src="" alt="">
+        <figcaption></figcaption>
+      </figure>
+
+      <h4>Three Day Forecast</h4>
+      <section>
+        <div id="threeDayForecast" class="forecast-container"></div>
+      </section>
+
+      <div class="banner" id="banner">
+        <p>Join us for the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.!</p>
+        <span class="close-btn" id="closeBtn">&times;</span>
+      </div>
+
+     
     </section>
     <section class="spotlights card">
       <h3 class="section-title section-title3"> Spotlights</h3>
@@ -124,6 +139,10 @@
   </footer>
   <script src="/wdd230/chamber/scripts/cham-script.js"></script>
   <script src="/wdd230/chamber/scripts/windchill.js"></script>
+  <script src="/wdd230/chamber/scripts/weather.js"></script>
+  <script src="/wdd230/chamber/scripts/banner.js"></script>
+
+
 </body>
 
 </html>

@@ -112,6 +112,8 @@ img {
   width: 100%;
 }
 
+
+
 #hero-msg {
   background-color: #772e25;
   text-align: center;
@@ -157,10 +159,50 @@ img {
   border-radius: 5px;
 }
 
+#weather-icon {
+  width: 30%;
+}
+
+#threeDayForecast{
+width: 20%;
+margin-left: 32%;
+}
+
+div .forecast-item {
+display: flex;
+}
+
+
+
+.weather-card {
+  text-align: center;
+  font-size: 1em;
+}
+
 .section-title {
   font-family: Lato;
   font-weight: 600;
+  text-align: left ;
+  font-size:medium
 }
+
+.banner {
+  display: none;
+  background-color: #772e25;
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
 
 footer {
   background-color: #283d3b;
