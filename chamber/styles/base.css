@@ -186,7 +186,7 @@ display: flex;
   font-size:medium
 }
 
-.banner {
+#banner {
   display: none;
   background-color: #772e25;
   color: #ffffff;
@@ -195,7 +195,7 @@ display: flex;
   position: relative;
 }
 
-.close-btn {
+#closeBtn {
   position: absolute;
   top: 5px;
   right: 10px;
