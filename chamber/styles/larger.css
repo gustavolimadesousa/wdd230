@@ -48,8 +48,8 @@
 
   .spotlights {
     grid-column: 1/4;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
     margin: 0 1em 1em 1em;
   }
 
@@ -59,6 +59,7 @@
 
   .spot {
     padding: 0 2em;
+    margin-top: 0;
   }
 
   footer{
@@ -144,5 +145,13 @@ form {
   display: none;
 }
 
+#companyList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#companyList img{
+  padding-bottom: 0;
+}
 
 }

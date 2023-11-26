@@ -275,6 +275,11 @@ footer {
   padding-top: 0.5em;
 }
 
+.directory-img {
+  width: 60%;
+  margin-left: 2rem;
+}
+
 /* Join Page */
 
 .main-join {
@@ -412,3 +417,13 @@ body.dark-mode {
   /* color: #ffffff; */
 }
 
+
+#companyList h2, #companyList p {
+  padding: 0;
+  text-align: center;
+}
+
+#companyList img{
+  margin-left:  5em;
+  padding-bottom: 2em;
+}
