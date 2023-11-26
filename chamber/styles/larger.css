@@ -129,5 +129,20 @@ form {
 
 }
 
+/* Directory page */
+.list-view .member-card {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.list-view .member-card h2, .list-view .member-card p {
+  padding: 0em 1em;
+  font-size: 1em;
+}
+
+.list-view .directory-img, .list-view .lastp {
+  display: none;
+}
+
 
 }

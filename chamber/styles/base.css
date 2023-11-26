@@ -363,6 +363,7 @@ button {
 
 /* Directory page */
 
+
 .grid-view {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -374,16 +375,13 @@ button {
 }
 
 .list-view .member-card {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: block;
 }
 
 .list-view .member-card h2, .list-view .member-card p {
   padding: 0em 1em;
   font-size: 1em;
 }
-
-
 
 .list-view .directory-img, .list-view .lastp {
   display: none;
@@ -399,16 +397,14 @@ button {
   margin: 0 5px;
 }
 
-.title-directory h1 {
+.title-directory {
   text-align: center;
+  color: #eeeeee;
+  background-color: #772e25;
+  padding:  0.2em;
+  margin-top: 1em;
 }
 
-
-/* Light mode styles */
-/* body {
-  background-color: #ffffff;
-  color: #333333;
-} */
 
 /* Dark mode styles */
 body.dark-mode {
