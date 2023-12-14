@@ -1,0 +1,96 @@
+@media only screen and (min-width: 40em) {
+  
+  body {
+    max-width: 60em;
+    margin: auto;
+  }
+
+  .nav-list {
+    display: flex;
+  }
+
+  .nav-list li {
+    display: block;
+  }
+
+  #menu {
+  display: none;
+  }
+
+  .box{
+    margin: 1em 0em;
+    
+  }
+
+  #threeDayForecast {
+    gap: 0.5em;
+  }
+
+  .forecast-item {
+ background-color: #21232B;
+ color: #F4F3F0;
+ border-radius: 5px;
+ 
+
+  }
+
+  footer{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .copyright {
+    text-align: left;
+  }
+
+
+  .contacts {
+    text-align: right;
+  }
+
+  .main-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /* RENTAL PAGE */
+
+  table {
+    width: 80%;
+    margin: 20px auto;
+    font-size: large;
+    
+  }
+
+  /* RESERVATION PAGE */
+
+  .reservation-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .reservation-grid h1{
+    grid-column: 1/3;
+  }
+
+  /* CONTACT PAGE */
+
+  .main-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .google-map {
+    grid-column: 1/3;
+  
+  }
+
+  .contact-info{
+    padding: 9em;
+  }
+
+  .contact-form h2 {
+    padding-left: 1.7em;
+   }
+
+}

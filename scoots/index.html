@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scoots - Home</title>
+  <meta name="description" content="WDD230 - Web Frontend Development, Gustavo Lima de Sousa - Scoots Homepage">
+  <meta name="author" content="Gustavo Sousa">
+  <link rel="icon" href="/wdd230/scoots/images/scoots-favicon-color.png">
+  <meta property="og:title" content="Scoots' Homepage">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://roamingvegans.com/wp-content/uploads/2020/12/motorbike-cozumel-island-768x576.jpg">
+  <meta property="og:url" content="https://gustavolimadesousa.github.io/wdd230/scoots/">
+
+  <link rel="stylesheet" href="/wdd230/scoots/styles/normalize.css">
+  <link rel="stylesheet" href="/wdd230/scoots/styles/base.css">
+  <link rel="stylesheet" href="/wdd230/scoots/styles/larger.css">
+</head>
+
+<body>
+  <div class="message" id="weatherMessage">
+    <span id="temperature"></span>
+    <span class="close-btn" onclick="closeMessage()">X</span>
+  </div>
+  </div>
+  <header>
+    <nav>
+      <a href="/wdd230/scoots/" class="logo"><img src="/wdd230/scoots/images/logo/png/logo-color.png" alt="logo" width="150"></a></a>
+
+      <div class="links">
+        <ul class="nav-list">
+          <li><a href="/wdd230/scoots">Home</a></li>
+          <li><a href="/wdd230/scoots/rentals.html">Rentals</a></li>
+          <li><a href="/wdd230/scoots/reservations.html">Reservations</a></li>
+          <li><a href="/wdd230/scoots/contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <a id="menu"></a>
+    </nav>
+    <div class="hero">
+
+      <div class="slideshow-container">
+        <div class="slide fade">
+          <img src="/wdd230/scoots/images/ather-energy-c5-5mzz7OjQ-unsplash.webp" style="width:100%">
+        </div>
+      
+        <div class="slide fade">
+          <img src="/wdd230/scoots/images/ather-energy-eLx3s6E_8Ys-unsplash.webp" style="width:100%">
+        </div>
+      
+        <div class="slide fade">
+          <img src="/wdd230/scoots/images/ather-energy-eU_WEEBGepA-unsplash.webp" style="width:100%">
+        </div>
+      
+        <button class="prev" onclick="plusSlides(-1)">❮</button>
+        <button class="next" onclick="plusSlides(1)">❯</button>
+      </div>
+
+    </div>
+
+    <section id="hero-msg" class="box">
+      <h1 class="title">Scoot, Explore, Enjoy!</h1>
+      <div class="button-box">
+        <a class="reservation button" href="/wdd230/scoots/reservations.html">Make a Reservation</a>
+      </div>
+    </section>
+
+
+  </header>
+  <main class="home-grid">
+    <!-- Summary information about rental types -->
+    <section class="rental-types box box2">
+      <h2>Rental Types</h2>
+      <div class="main-box">
+        <div class="rental-box">
+          <img src="/wdd230/scoots/images/ather-energy-llXmQYNP4bk-unsplash.webp" alt="scooter"><p>Honda Motor Scooters</p>
+          </div>
+          
+        <div class="rental-box">
+          <img src="/wdd230/scoots/images/andrew-stapleton-ljEDEaFByRQ-unsplash.webp" alt="ATV"><p>Side-by-Side ATVs</p>
+          </div>
+          
+        <div class="rental-box">
+          <img src="/wdd230/scoots/images/dave-goudreau-8ZfrYgVcU6A-unsplash.webp" alt="jeep"><p>Jeeps</p>
+      </div>
+      </div>
+    
+    </section>
+
+    <!-- Weather information -->
+    <section class="bottom-section">
+      <section class="weather-card card box">
+        <h1>Weather Information</h1>
+  <div id="weather-info"></div>
+      </section>
+
+      <section class="social-card box box2">
+        <h1>Social Media</h1>
+        <div class="social">
+          <a href="https://facebook.com" target="_blank">
+            <img class="img-social" src="/wdd230/scoots/images/facebook.png" alt="fb icon">
+          </a>
+  
+          <a href="https://twitter.com" target="_blank">
+            <img class="img-social" src="/wdd230/scoots/images/twitter.png" alt="twitter icon">
+          </a>
+  
+          <a href="https://instagram.com" target="_blank">
+            <img class="img-social" src="/wdd230/scoots/images/instagram.png" alt="instagram icon">
+          </a>
+        </div>
+      </section>
+    </section>
+    
+  </main>
+
+  <footer>
+    <!-- Footer content -->
+    <div class="copyright">
+      <p>&copy; <span class="currentYear">2023</span> Gustavo Sousa, Portugal </p>
+      <p>Web Frontend Development | WDD230</p>
+    </div>
+
+    <div class="contacts">
+      <p>Contact Information</p>
+      <p>+999 999 999</p>
+      <p>scoots@org.mx</p>
+    </div>
+
+  </footer>
+  <script src="/wdd230/scoots/scripts/scoots-script.js"></script>
+  <script src="/wdd230/scoots/scripts/weather.js"></script>
+  <script src="/wdd230/scoots/scripts/slideshow.js"></script>
+</body>
+
+</html>

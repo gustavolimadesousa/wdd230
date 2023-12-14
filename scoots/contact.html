@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scoots - Contact</title>
+  <meta name="description" content="WDD230 - Web Frontend Development, Gustavo Lima de Sousa - Scoots Contact Page">
+  <meta name="author" content="Gustavo Sousa">
+  <link rel="icon" href="/wdd230/scoots/images/scoots-favicon-color.png">
+  <meta property="og:title" content="Scoots' Contact Page">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://roamingvegans.com/wp-content/uploads/2020/12/motorbike-cozumel-island-768x576.jpg">
+  <meta property="og:url" content="https://gustavolimadesousa.github.io/wdd230/scoots/">
+  <link rel="stylesheet" href="/wdd230/scoots/styles/normalize.css">
+  <link rel="stylesheet" href="/wdd230/scoots/styles/base.css">
+  <link rel="stylesheet" href="/wdd230/scoots/styles/larger.css">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <a href="/wdd230/scoots/" class="logo"><img src="/wdd230/scoots/images/logo/png/logo-color.png" alt="logo" width="150"></a></a>
+
+      <div class="links">
+        <ul class="nav-list">
+          <li><a href="/wdd230/scoots">Home</a></li>
+          <li><a href="/wdd230/scoots/rentals.html">Rentals</a></li>
+          <li><a href="/wdd230/scoots/reservations.html">Reservations</a></li>
+          <li><a href="/wdd230/scoots/contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <a id="menu"></a>
+    </nav>
+      <h1 class="contact-title">Contact Us</h1>
+    </header>
+    
+    <main class="main-contact">
+      <section class="contact-info">
+        <h2>Essential Contact Information</h2>
+        <p>Address: C. 7 Sur, Centro, 77600 Cozumel, Q.R., Mexico</p>
+        <p>Phone: +999 999 999</p>
+        <p>Email: scoots@org.mx</p>
+      </section>
+
+      <section class="contact-form">
+        <h2>Send us a message</h2>
+        <form id="contactForm" class="form">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" class="input-field">
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="input-field">
+          </div>
+          <div class="form-group">
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" class="input-field" rows="4"></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send the message</button>
+        </form>
+      </section>
+      
+      <section class="google-map">
+        <h2>Locations in Cozumel</h2>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2221.9588982964406!2d-86.94968088354223!3d20.511368519094702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59cebcc44c25%3A0x116ec79ef00cd461!2sHTL%20RENTALS%20scooter%20Buggy%20%26%20jeeps%20rentals!5e0!3m2!1sen!2spt!4v1702506782647!5m2!1sen!2spt" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1868.4917037473006!2d-86.95490991968856!3d20.506906432985282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59c54b7ede1b%3A0xa01227de094546ad!2sC%26M%20Scooter%20Tours%20%26%20Rentals!5e0!3m2!1sen!2spt!4v1702506625148!5m2!1sen!2spt" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+      
+
+    </main>
+
+  <footer>
+    <!-- Footer content -->
+    <div class="copyright">
+      <p>&copy; <span class="currentYear"></span> Gustavo Sousa, Portugal </p>
+      <p>Web Frontend Development | WDD230</p>
+    </div>
+
+    <div class="contacts">
+      <p>Contact Information</p>
+      <p>+999 999 999</p>
+      <p>scoots@org.mx</p>
+    </div>
+
+  </footer>
+  <script src="/wdd230/scoots/scripts/scoots-script.js"></script>
+  <script src="/wdd230/scoots/scripts/contact.js"></script>
+</body>
+
+</html>
