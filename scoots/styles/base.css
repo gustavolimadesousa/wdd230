@@ -203,7 +203,6 @@ button.prev:hover, button.next:hover {
 }
 
 .rental-box img:hover {
-    opacity: 0.6s;
     transform: scale(1.1);
 }
 
@@ -285,7 +284,7 @@ th, td {
 th {
   background-color: #21232B;
   color: #F4F3F0;
-  padding: 2em auto;
+  padding: 0.8em 5px;
 }
 
 tr:nth-child(even) {
