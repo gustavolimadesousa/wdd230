@@ -414,4 +414,7 @@ input[type="submit"]:hover {
   margin-bottom: 2em;
 }
 
-
+.copy {
+  text-decoration: none;
+  color: #F4F3F0;
+}
